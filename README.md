@@ -8,7 +8,7 @@ Now, we need to create service file for execute bash file when boot the pc.
 Put touchpad.service file to ***/etc/systemd/system***
 
 
-**sudo systemctl daemon-reload*
+**sudo systemctl daemon-reload**
 
 **sudo systemctl enable touchpad.service**
 
