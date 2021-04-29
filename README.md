@@ -14,5 +14,5 @@ Put touchpad.service file to ***/etc/systemd/system***
 
 **sudo systemctl start touchpad.service**
 
-TESTED ON FEDORA 32-33
+TESTED ON FEDORA 32-33-34 
 ***********************************************************************************************
