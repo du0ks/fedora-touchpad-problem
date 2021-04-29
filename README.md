@@ -1,7 +1,7 @@
 # If your touchpad is randomly being disabled when you boot the laptop try this solution!
 
 
-Put touchpad.sh file to ***/usr/bin*** and ***chmod +x touchpad.sh*** 
+Put touchpad.sh file to ***/usr/bin*** and ***chmod +x touchpad.sh*** (go to /usr/bin in terminal too)
 
 Now, we need to create service file for execute bash file when boot the pc.
 
