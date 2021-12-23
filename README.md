@@ -1,4 +1,4 @@
-# If your touchpad is randomly being disabled when you boot the laptop try this solution!
+# If your touchpad is randomly disabling when you boot the system try this solution!
 
 
 Put touchpad.sh file to ***/usr/bin*** and ***chmod +x touchpad.sh*** (go to /usr/bin in terminal too)
@@ -14,5 +14,5 @@ Put touchpad.service file to ***/etc/systemd/system***
 
 **sudo systemctl start touchpad.service**
 
-TESTED ON FEDORA 32-33-34 
+TESTED ON FEDORA 32-33-34-35
 ***********************************************************************************************
