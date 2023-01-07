@@ -1,5 +1,6 @@
 # If your touchpad is randomly disabling when you boot the system try this solution!
 
+(It's working for lots of people)
 
 Put touchpad.sh file to ***/usr/bin*** and ***chmod +x touchpad.sh*** (go to /usr/bin in terminal too)
 
