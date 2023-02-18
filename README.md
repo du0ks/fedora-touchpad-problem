@@ -1,4 +1,4 @@
-#Fedora Touchpad Fix
+# Fedora Touchpad Fix
 
 ## Purpose
 In some laptops, touchpad is randomly disabling itself when you boot the computer.
