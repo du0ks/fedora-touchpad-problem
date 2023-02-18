@@ -1,19 +1,25 @@
-# If your touchpad is randomly disabling when you boot the system try this solution!
+#Fedora Touchpad Fix
 
-(It's working for lots of people)
+## Purpose
+In some laptops, touchpad is randomly disabling itself when you boot the computer.
 
-Put touchpad.sh file to ***/usr/bin*** and ***chmod +x touchpad.sh*** (go to /usr/bin in terminal too)
+### Files
 
-Now, we need to create service file for execute bash file when boot the pc.
+* Download the files
+* Put touchpad.sh file to ***/usr/bin*** 
+* Execute the command in ***/usr/bin***
+```
+chmod +x touchpad.sh
+```
+### Creating the service
 
-Put touchpad.service file to ***/etc/systemd/system***
+* Now, we need to create service file for execute bash file when boot the pc.
+* Put touchpad.service file to ***/etc/systemd/system***
+* Execute the commands 
+```
+sudo systemctl daemon-reload
+sudo systemctl enable touchpad.service
+sudo systemctl start touchpad.service
+```
 
-
-**sudo systemctl daemon-reload**
-
-**sudo systemctl enable touchpad.service**
-
-**sudo systemctl start touchpad.service**
-
-TESTED ON FEDORA 32-33-34-35
-***********************************************************************************************
+* TESTED ON FEDORA 32-33-34-35
